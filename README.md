@@ -11,3 +11,10 @@ Red -> Green -> Refactor
 
 ### What to test?
 Each test will cover a single scenario for a single piece of logic.
+
+### Given-When-Then
+The essential idea is to break down writing a scenario(or test) into tree sections:
+- The **given** part describes the state of the world before you  begin the behavior
+you're specifying in this scenario. You can think of it as the pre-conditions to the test.
+- The **when** section is that behavior that you're specifying.
+- Finally the **then** section describes the changes you expect due to the specified behavior. 
