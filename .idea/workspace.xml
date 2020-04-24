@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c57b98-5908-406d-83fe-92d28838abc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,6 +32,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Spring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -54,13 +56,29 @@
       <workItem from="1587716060015" duration="531000" />
       <workItem from="1587717102555" duration="154000" />
       <workItem from="1587717268854" duration="38000" />
+      <workItem from="1587717318000" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1170" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587718213911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="299" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587718213911" />
     <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587112699347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -69,14 +87,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587717122001" />
-    <state x="910" y="163" key="SettingsEditor" timestamp="1587717305798">
+    <state x="910" y="163" key="SettingsEditor" timestamp="1587717447091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="910" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587717305798" />
+    <state x="910" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587717447091" />
     <state x="1135" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1587112694128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1135" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587112694128" />
+    <state x="1211" y="352" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587718215052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="352" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587718215052" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587717211751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
