@@ -28,4 +28,8 @@ class ValidateISBNTest {
         assertFalse(result);
     }
 
+    @Test
+    void nineDigitsISBNsAreNotAllowed() {
+        assertThrows(NumberFormatException.class, () -> validator.checkISBN("140449117"));
+    }
 }

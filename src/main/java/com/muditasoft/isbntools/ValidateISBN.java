@@ -6,6 +6,9 @@ public class ValidateISBN {
         int total = 0;
         int tenCheckDigits = 10;
 
+        if (isbnNumber.length() != tenCheckDigits)
+            throw new NumberFormatException();
+
         for (int i = 0; i < tenCheckDigits; i++) {
             total += isbnNumber.charAt(i) * (tenCheckDigits - i);
         }
