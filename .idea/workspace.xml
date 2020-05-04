@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06c57b98-5908-406d-83fe-92d28838abc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/muditasoft/isbntools/ValidateISBNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muditasoft/isbntools/ValidateISBNTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/muditasoft/isbntools/ValidateISBN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muditasoft/isbntools/ValidateISBN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateISBNTest.checkAValidISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateISBNTest.checkAnInvalidISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practical-tdd" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +109,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.muditasoft.isbntools" />
       <option name="MAIN_CLASS_NAME" value="com.muditasoft.isbntools.ValidateISBNTest" />
-      <option name="METHOD_NAME" value="checkAValidISBN" />
+      <option name="METHOD_NAME" value="checkAnInvalidISBN" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ValidateISBNTest.ISBNNumbersEndingInAnXAreValid" />
+        <item itemvalue="JUnit.ValidateISBNTest.checkAnInvalidISBN" />
         <item itemvalue="JUnit.ValidateISBNTest.nonNumericISBNsAreNotAllowed" />
         <item itemvalue="JUnit.ValidateISBNTest.nineDigitsISBNsAreNotAllowed" />
         <item itemvalue="JUnit.ValidateISBNTest" />
-        <item itemvalue="JUnit.ValidateISBNTest.checkAValidISBN" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <workItem from="1587717318000" duration="9541000" />
       <workItem from="1588516578277" duration="10000" />
       <workItem from="1588616955648" duration="56000" />
-      <workItem from="1588617080790" duration="2044000" />
+      <workItem from="1588617080790" duration="3766000" />
     </task>
     <servers />
   </component>
@@ -208,22 +208,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587717122001" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1588619069407">
+    <state width="914" height="347" key="GridCell.Tab.0.bottom" timestamp="1588621003397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588619069407" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1588619069407">
+    <state width="914" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.0.center" timestamp="1588621003397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588619069407" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1588619069407">
+    <state width="914" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.0.left" timestamp="1588621003397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588619069407" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1588619069407">
+    <state width="914" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.0.right" timestamp="1588621003397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588619069407" />
+    <state width="914" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1588621003397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1588621003397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1588621003397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
+    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1588621003397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588621003397" />
     <state x="910" y="163" key="SettingsEditor" timestamp="1587717447091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,5 +260,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587717211751" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/muditasoft/isbntools/ValidateISBN.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
