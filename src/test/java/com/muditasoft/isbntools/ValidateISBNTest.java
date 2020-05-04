@@ -32,4 +32,9 @@ class ValidateISBNTest {
     void nineDigitsISBNsAreNotAllowed() {
         assertThrows(NumberFormatException.class, () -> validator.checkISBN("140449117"));
     }
+
+    @Test
+    void nonNumericISBNsAreNotAllowed() {
+        assertThrows(NumberFormatException.class, () -> validator.checkISBN("helloWorld"));
+    }
 }

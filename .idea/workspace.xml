@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06c57b98-5908-406d-83fe-92d28838abc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/muditasoft/isbntools/ValidateISBN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/muditasoft/isbntools/ValidateISBN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/muditasoft/isbntools/ValidateISBNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/muditasoft/isbntools/ValidateISBNTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidateISBNTest.nineDigitsISBNsAreNotAllowed">
+  <component name="RunManager" selected="JUnit.ValidateISBNTest.nonNumericISBNsAreNotAllowed">
     <configuration name="ValidateISBNTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practical-tdd" />
       <extension name="coverage">
@@ -132,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateISBNTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateISBNTest.nonNumericISBNsAreNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practical-tdd" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.muditasoft.isbntools" />
       <option name="MAIN_CLASS_NAME" value="com.muditasoft.isbntools.ValidateISBNTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="nonNumericISBNsAreNotAllowed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateISBNTest.nonNumericISBNsAreNotAllowed" />
         <item itemvalue="JUnit.ValidateISBNTest.nineDigitsISBNsAreNotAllowed" />
         <item itemvalue="JUnit.ValidateISBNTest" />
         <item itemvalue="JUnit.ValidateISBNTest.checkAValidISBN" />
         <item itemvalue="JUnit.ValidateISBNTest.checkAnInvalidISBN" />
-        <item itemvalue="JUnit.ValidateISBNTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +173,10 @@
       <workItem from="1587716060015" duration="531000" />
       <workItem from="1587717102555" duration="154000" />
       <workItem from="1587717268854" duration="38000" />
-      <workItem from="1587717318000" duration="8919000" />
+      <workItem from="1587717318000" duration="9541000" />
+      <workItem from="1588516578277" duration="10000" />
+      <workItem from="1588616955648" duration="56000" />
+      <workItem from="1588617080790" duration="1567000" />
     </task>
     <servers />
   </component>
@@ -191,36 +193,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1170" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587718242015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="299" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587718242015" />
-    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587112699347">
+    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588616962088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587112699347" />
+    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588616962088" />
     <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1587717122001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587717122001" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1587736756700">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1587748705327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587736756700" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1587736756699">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587748705327" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1587748705326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587736756699" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1587736756699">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587748705326" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1587748705326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587736756699" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1587736756700">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587748705326" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1587748705327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587736756700" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587748705327" />
     <state x="910" y="163" key="SettingsEditor" timestamp="1587717447091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
