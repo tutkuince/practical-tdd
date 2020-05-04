@@ -23,6 +23,12 @@ class ValidateISBNTest {
     }
 
     @Test
+    void ISBNNumbersEndingInAnXAreValid() {
+        boolean result = validator.checkISBN("012000030X");
+        assertTrue(result);
+    }
+
+    @Test
     void checkAnInvalidISBN() {
         boolean result = validator.checkISBN("0140449117");
         assertFalse(result);
